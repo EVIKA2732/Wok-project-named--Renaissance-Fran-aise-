@@ -1,0 +1,16 @@
+{
+	"name" : "Renaissance Française",
+	"short_name" : "RF",
+	"description" : "Renaissance Française est une Association dans le but d'instaurer un quatrième pouvoir souverain,celui du peuple,par le peuple pour le peuple. Déjà 4 pays ont signé la charte des Peuples Libres et Souverains,L’Italie avec le général Papalardo,Monaco,et aussi par La République du Congo",
+	"start_url" : "https://renaissancefrancaise.000webhostapp.com/",
+	"display" : "fullscreen",
+	"orientation" : "portrait",
+	"lang" : "French",
+	"icons" : [
+		{
+			"src": "[Embedded]",
+			"sizes": "256x256"
+		}],
+	"screenshots" : [],
+	"generated" : "undefined"
+}

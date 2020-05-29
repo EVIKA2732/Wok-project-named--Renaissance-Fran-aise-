@@ -1,0 +1,854 @@
+/* Text Elements */
+
+h1.page-heading {
+  margin-top: .625rem;
+  margin-bottom: .625rem;
+  color: #383a3d;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.81rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2.section-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2a617d;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .07rem;
+  font-size: 1.62rem;
+}
+
+h3.travel-heading {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  color: #18191a;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.87rem;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+p.paragraph.action-para {
+  margin-bottom: 1rem;
+  max-width: 37.5rem;
+  text-align: center;
+  font-size: 1.12rem;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+a.link-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.link-text.nav-link {
+  display: inline-block;
+  margin-top: .625rem;
+  margin-bottom: .625rem;
+  padding: .625rem;
+}
+
+a.link-text.footer-link {
+  margin-top: .437rem;
+  margin-bottom: .437rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  color: #383a3d;
+}
+
+/* Interaction Elements */
+
+a.link-button.action.btn {
+  margin: .427rem auto;
+  padding: .625rem;
+  background-color: #242424;
+  color: #fff;
+  font-style: italic;
+  font-size: 1.2rem;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Layout Elements */
+
+body > .row {
+  max-width: 75rem;
+}
+
+body > .row.nav-row {
+  background-color: #262626;
+}
+
+body > .row > [class*='col-xs-'].centered-content {
+  text-align: center;
+}
+
+body > .row > [class*='col-xs-'].no-padding-column {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+body > .row > [class*='col-xs-'].heading-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  padding-right: .9375rem;
+  padding-left: .9375rem;
+  min-height: 6.25rem;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+}
+
+body > .row.travel-row {
+  margin-bottom: 2.5rem;
+}
+
+body > .row > [class*='col-xs-'].book-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+}
+
+body > .row > [class*='col-xs-'].footer-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  margin-bottom: 3.75rem;
+  padding-right: .9375rem;
+  padding-left: .9375rem;
+  text-align: center;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+}
+
+div.responsive-picture.hero-image {
+  margin-bottom: .437rem;
+  max-width: none;
+}
+
+div.responsive-picture.travel-image {
+  margin: .437rem auto;
+  max-width: 20.625rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* Layout Elements */
+
+  body > .row > [class*='col-xs-'].heading-column {
+    min-height: 12.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Text Elements */
+
+  h1 span.heading-text-1 {
+    background-color: #94abde;
+  }
+
+  h1 span.heading-text-2 {
+    background-color: #f4f8f8;
+  }
+
+  h1 span.heading-text-3 {
+    background-color: #e04e3c;
+  }
+
+  h2 span.heading-text-4 {
+    color: #152be8;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+  }
+
+  h2 span.heading-text-5 {
+    color: #c2c2c2;
+  }
+
+  p.paragraph.action-para {
+    max-width: 50rem;
+  }
+
+  p.paragraph span.paragraph-text-1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+
+  p.paragraph span.paragraph-text-5 {
+    color: #080808;
+  }
+
+  p.paragraph span.paragraph-text-8 {
+    text-decoration: underline;
+  }
+
+  p.paragraph span.paragraph-text-9 {
+    text-decoration: underline;
+  }
+
+  p.paragraph span.paragraph-text-10 {
+    color: #2641e2;
+  }
+
+  p.paragraph span.paragraph-text-11 {
+    color: #c0bdbd;
+  }
+
+  p.paragraph span.paragraph-text-12 {
+    color: #bf2525;
+  }
+
+  a.link-text span.text-link-text-1 {
+    color: #5656cf;
+  }
+
+  a.link-text span.text-link-text-3 {
+    color: #1d60c5;
+  }
+
+  a.link-text span.text-link-text-4 {
+    color: #a5a7a3;
+  }
+
+  a.link-text span.text-link-text-5 {
+    color: #c41731;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button span.button-link-text-1 {
+    color: #415ac4;
+  }
+
+  a.link-button span.button-link-text-2 {
+    color: #d72c2c;
+  }
+
+  div.responsive-picture.hero-image {
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  div.responsive-picture.hero-image > picture > img {
+    -o-object-position: 100% 100%;
+       object-position: 100% 100%;
+  }
+
+  div.responsive-picture.travel-image {
+    max-width: 20.5rem;
+  }
+
+  div.responsive-picture.travel-image > picture {
+    margin: -12px;
+  }
+}
+
+@media screen and (min-width: 1013px) {
+  /* Text Elements */
+
+  h1 span.heading-text-2 {
+    background-color: #f01318;
+  }
+
+  h1 span.heading-text-13 {
+    background-color: #fcf0f0;
+  }
+
+  h1 span.heading-text-3 {
+    background-color: #fff;
+  }
+
+  h1 span.heading-text-15 {
+    background-color: #fff;
+  }
+
+  h1 span.heading-text-16 {
+    background-color: #94abde;
+  }
+
+  h1 span.heading-text-17 {
+    background-color: #fdfdfd;
+  }
+
+  h1 span.heading-text-18 {
+    background-color: #fff;
+  }
+
+  h1 span.heading-text-47 {
+    background-color: #94abde;
+  }
+
+  h1 span.heading-text-48 {
+    background-color: #f01318;
+  }
+
+  h1 span.heading-text-49 {
+    background-color: #c5bfbf;
+  }
+
+  h1 span.heading-text-50 {
+    background-color: #fcf7f7;
+    color: #383a3d;
+  }
+
+  h1 span.heading-text-51 {
+    background-color: #94abde;
+  }
+
+  h1 span.heading-text-52 {
+    background-color: #f01318;
+  }
+
+  h2.section-heading {
+    display: inline;
+    overflow: hidden;
+    text-decoration: overline;
+    text-transform: capitalize;
+    font-size: 2.25rem;
+  }
+
+  h2 span.heading-text-11 {
+    color: #f01318;
+  }
+
+  h2 span.heading-text-12 {
+    color: #c2c2c2;
+    text-transform: none;
+    font-size: 28px;
+  }
+
+  h2 span.heading-text-14 {
+    color: #c2c2c2;
+  }
+
+  h2 span.heading-text-20 {
+    color: #c2c2c2;
+    text-decoration: none;
+    text-transform: none;
+  }
+
+  h2 span.heading-text-21 {
+    color: #f01318;
+    text-transform: none;
+  }
+
+  h2 span.heading-text-22 {
+    color: #f01318;
+  }
+
+  h2 span.heading-text-23 {
+    color: #c2c2c2;
+  }
+
+  h2 span.heading-text-25 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-26 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-27 {
+    color: #152be8;
+  }
+
+  h2 span.heading-text-28 {
+    color: #152be8;
+    text-transform: none;
+  }
+
+  h2 span.heading-text-29 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-30 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-31 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-32 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-33 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-34 {
+    color: #c2c2c2;
+  }
+
+  h2 span.heading-text-35 {
+    color: #f01318;
+  }
+
+  h2 span.heading-text-6 {
+    color: #152be8;
+  }
+
+  h2 span.heading-text-4 {
+    font-size: 32px;
+  }
+
+  h2 span.heading-text-36 {
+    text-transform: none;
+  }
+
+  h2 span.heading-text-38 {
+    text-transform: none;
+    font-size: 32px;
+  }
+
+  h2 span.heading-text-39 {
+    text-transform: none;
+    font-size: 32px;
+  }
+
+  h2 span.heading-text-40 {
+    text-transform: none;
+    font-size: 32px;
+  }
+
+  h2 span.heading-text-41 {
+    color: #f01318;
+  }
+
+  h3.travel-heading {
+    display: inline-table;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    color: #18191a;
+    vertical-align: baseline;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.87rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+
+  h3 span.heading-text-19 {
+    color: #2f54dc;
+  }
+
+  h3 span.heading-text-24 {
+    color: #ababab;
+  }
+
+  h3 span.heading-text-37 {
+    color: #f81010;
+  }
+
+  h3 span.heading-text-42 {
+    color: #2361fd;
+  }
+
+  h3 span.heading-text-43 {
+    color: #ababab;
+  }
+
+  h3 span.heading-text-44 {
+    color: #f81010;
+  }
+
+  h3 span.heading-text-45 {
+    color: #0944e5;
+  }
+
+  h3 span.heading-text-46 {
+    color: #3842e9;
+  }
+
+  h3 span.heading-text-53 {
+    background-color: #5a81eb;
+  }
+
+  h3 span.heading-text-54 {
+    background-color: #c6c6c6;
+  }
+
+  h3 span.heading-text-55 {
+    background-color: #fa6e5f;
+  }
+
+  h3 span.heading-text-56 {
+    background-color: #4e6de5;
+  }
+
+  h3 span.heading-text-57 {
+    background-color: #c1c1c1;
+  }
+
+  h3 span.heading-text-58 {
+    background-color: #f82c2e;
+  }
+
+  h3 span.heading-text-7 {
+    text-decoration: underline;
+  }
+
+  h3 span.heading-text-8 {
+    text-transform: capitalize;
+  }
+
+  h3 span.heading-text-9 {
+    text-transform: capitalize;
+  }
+
+  h3 span.heading-text-10 {
+    color: #1b36d5;
+  }
+
+  h3 span.heading-text-59 {
+    background-color: transparent;
+    color: #2550ce;
+  }
+
+  h3 span.heading-text-60 {
+    color: #c2c2c2;
+  }
+
+  h3 span.heading-text-61 {
+    color: #eb1b18;
+  }
+
+  h3 span.heading-text-62 {
+    color: #ea1a18;
+  }
+
+  h3 span.heading-text-63 {
+    color: #9a9899;
+  }
+
+  h3 span.heading-text-64 {
+    color: #0f28bf;
+  }
+
+  p.paragraph span.paragraph-text-13 {
+    background-color: #f6f6f6;
+    color: #2a66ee;
+  }
+
+  p.paragraph span.paragraph-text-2 {
+    background-color: #fff;
+    color: #dad5d5;
+  }
+
+  p.paragraph span.paragraph-text-3 {
+    background-color: #fff;
+    color: #f01318;
+  }
+
+  p.paragraph span.paragraph-text-6 {
+    background-color: #fff;
+  }
+
+  p.paragraph span.paragraph-text-15 {
+    background-color: #faf9f9;
+    color: #dad5d5;
+  }
+
+  p.paragraph span.paragraph-text-16 {
+    background-color: #fff;
+    color: #f01318;
+  }
+
+  p.paragraph span.paragraph-text-17 {
+    background-color: #fff;
+  }
+
+  p.paragraph span.paragraph-text-18 {
+    background-color: #fdfbfb;
+  }
+
+  p.paragraph span.paragraph-text-21 {
+    background-color: #fff;
+  }
+
+  p.paragraph span.paragraph-text-25 {
+    background-color: #fdfdfd;
+    color: #1819c0;
+  }
+
+  p.paragraph span.paragraph-text-11 {
+    background-color: transparent;
+    color: #dad5d5;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+
+  p.paragraph span.paragraph-text-12 {
+    background-color: transparent;
+    color: #f01318;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+
+  p.paragraph span.paragraph-text-10 {
+    color: #2a66ee;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+
+  p.paragraph span.paragraph-text-26 {
+    text-decoration: underline;
+  }
+
+  p.paragraph span.paragraph-text-27 {
+    color: #0c15e4;
+  }
+
+  p.paragraph span.paragraph-text-28 {
+    background-color: #fff;
+    color: #dad5d5;
+  }
+
+  p.paragraph span.paragraph-text-29 {
+    background-color: #fff;
+    color: #da0606;
+  }
+
+  a.link-text.nav-link {
+    clear: none;
+    background-image: url('../images/City-Landscape-Eiffel-Tower-Paris-France-1024x640.jpg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: 'Graduate', Geneva, Tahoma, Verdana, sans-serif;
+    line-height: 28px;
+
+    background-blend-mode: normal;
+  }
+
+  a.link-text.footer-link {
+    background-color: #fff;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'New Rocker', cursive;
+  }
+
+  a.link-text span.text-link-text-2 {
+    color: #0942dd;
+  }
+
+  a.link-text span.text-link-text-6 {
+    text-transform: none;
+  }
+
+  a.link-text span.text-link-text-7 {
+    color: #a9a6a6;
+  }
+
+  a.link-text span.text-link-text-8 {
+    color: #f01808;
+  }
+
+  a.link-text span.text-link-text-9 {
+    color: #eb1212;
+  }
+
+  a.link-text span.text-link-text-10 {
+    color: #6c6c6c;
+  }
+
+  a.link-text span.text-link-text-11 {
+    text-transform: none;
+  }
+
+  a.link-text span.text-link-text-5 {
+    color: #dd1f11;
+  }
+
+  a.link-text span.text-link-text-4 {
+    color: #7b8076;
+  }
+
+  a.link-text span.text-link-text-3 {
+    color: #072cab;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='col-xs-'].heading-column {
+    min-height: 9.375rem;
+  }
+
+  body > .row.travel-row {
+    margin-bottom: 2.5rem;
+  }
+
+  body > .row > [class*='col-xs-'].footer-column {
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+  }
+
+  body.grid-1 {
+    box-shadow: rgba(0, 0, 0, .5) 5px 5px 10px 0;
+  }
+
+  div.responsive-picture.travel-image {
+    position: static;
+    display: inline;
+    overflow: hidden;
+    margin: .436rem auto;
+    max-width: 20.625rem;
+    -webkit-transform: scaleX(.99) scaleY(.99);
+       -moz-transform: scaleX(.99) scaleY(.99);
+         -o-transform: scaleX(.99) scaleY(.99);
+            transform: scaleX(.99) scaleY(.99);
+  }
+
+  div.responsive-picture.hero-image {
+    overflow: hidden;
+    vertical-align: baseline;
+    -webkit-transform: scaleX(1) scaleY(1.01);
+       -moz-transform: scaleX(1) scaleY(1.01);
+         -o-transform: scaleX(1) scaleY(1.01);
+            transform: scaleX(1) scaleY(1.01);
+  }
+
+  div.responsive-picture.travel-image > picture {
+    margin-right: -16px;
+    margin-left: -8px;
+  }
+
+  div.responsive-picture.travel-image > picture > img {
+    -o-object-position: right center;
+       object-position: right center;
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
+  }
+
+  div.responsive-video.video-1 {
+    clear: none;
+    background-image: url('../images/unnamed.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: content-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+    mix-blend-mode: normal;
+  }
+
+  span.link-button-text span.text-for-button-link-text-1 {
+    color: #ea020c;
+  }
+
+  a.link-button-glyph.btn {
+    background-image: url('../images/mega_93685.png');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    box-shadow: none;
+
+    background-blend-mode: normal;
+  }
+
+  div.responsive-video.video-1:active {
+    background-image: url('../images/unnamed.jpg'), url('file:///C:/Users/Mika/AppData/Local/CoffeeCup%20Software/Responsive%20Bootstrap%20Builder/cache/3480/editor/shared/images/placeholders/placeholder-video-youtube.png');
+    background-attachment: scroll, scroll;
+    background-position: center center, 50% 50%;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: cover, auto;
+    background-repeat: no-repeat, no-repeat;
+
+    background-blend-mode: normal, normal;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Layout Elements */
+
+  body > .row.footer-row {
+    margin-top: 5rem;
+  }
+}
